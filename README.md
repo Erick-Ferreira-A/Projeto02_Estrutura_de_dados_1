@@ -1,4 +1,4 @@
-# Projeto 2 - Sistema Completo de Atendimento e Analise
+# Sistema Completo de Atendimento e Analise
 
 Sistema de linha de comando em Python para uma clinica ou central de
 atendimento. O projeto controla clientes, atendentes, filas, historico,
@@ -114,8 +114,3 @@ No menu, use a opcao `11` para exportar:
 - Nao e permitido desativar ou remover cliente com atendimento aberto.
 - Para remover um cliente, primeiro use a opcao `8` para desativar e depois
   a opcao `9` para remover inativos.
-
-## GitHub Desktop
-
-A pasta ja esta pronta para abrir no GitHub Desktop. Depois, crie/publique o
-repositorio remoto na sua conta do GitHub e envie os commits.
