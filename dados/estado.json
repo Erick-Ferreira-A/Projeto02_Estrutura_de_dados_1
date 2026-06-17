@@ -1,0 +1,110 @@
+{
+  "clientes": [
+    {
+      "id": 101,
+      "nome": "Ana Souza",
+      "telefone": "(11) 90000-0001",
+      "prioridade": true,
+      "ativo": true
+    },
+    {
+      "id": 205,
+      "nome": "Bruno Lima",
+      "telefone": "(11) 90000-0002",
+      "prioridade": false,
+      "ativo": true
+    },
+    {
+      "id": 310,
+      "nome": "Carla Mendes",
+      "telefone": "(11) 90000-0003",
+      "prioridade": false,
+      "ativo": true
+    },
+    {
+      "id": 415,
+      "nome": "Diego Ramos",
+      "telefone": "(11) 90000-0004",
+      "prioridade": true,
+      "ativo": true
+    },
+    {
+      "id": 520,
+      "nome": "Elisa Rocha",
+      "telefone": "(11) 90000-0005",
+      "prioridade": false,
+      "ativo": false
+    }
+  ],
+  "atendentes": [
+    {
+      "id": 1,
+      "nome": "Mariana",
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "nome": "Rafael",
+      "ativo": true
+    }
+  ],
+  "fila_prioridade": [
+    {
+      "id_atendimento": 4,
+      "cliente_id": 415,
+      "prioridade": true,
+      "aberto_em": "2026-06-17T09:35:00"
+    }
+  ],
+  "fila_comum": [
+    {
+      "id_atendimento": 5,
+      "cliente_id": 205,
+      "prioridade": false,
+      "aberto_em": "2026-06-17T09:40:00"
+    }
+  ],
+  "em_atendimento": [
+    {
+      "id_atendimento": 6,
+      "cliente_id": 310,
+      "atendente_id": 1,
+      "prioridade": false,
+      "aberto_em": "2026-06-17T09:45:00",
+      "iniciado_em": "2026-06-17T09:50:00"
+    }
+  ],
+  "historico": [
+    {
+      "id_atendimento": 1,
+      "cliente_id": 101,
+      "atendente_id": 1,
+      "aberto_em": "2026-06-17T08:00:00",
+      "iniciado_em": "2026-06-17T08:05:00",
+      "finalizado_em": "2026-06-17T08:25:00",
+      "duracao_minutos": 20,
+      "espera_minutos": 5
+    },
+    {
+      "id_atendimento": 2,
+      "cliente_id": 205,
+      "atendente_id": 2,
+      "aberto_em": "2026-06-17T08:10:00",
+      "iniciado_em": "2026-06-17T08:20:00",
+      "finalizado_em": "2026-06-17T08:32:00",
+      "duracao_minutos": 12,
+      "espera_minutos": 10
+    },
+    {
+      "id_atendimento": 3,
+      "cliente_id": 101,
+      "atendente_id": 2,
+      "aberto_em": "2026-06-17T09:00:00",
+      "iniciado_em": "2026-06-17T09:03:00",
+      "finalizado_em": "2026-06-17T09:18:00",
+      "duracao_minutos": 15,
+      "espera_minutos": 3
+    }
+  ],
+  "proximo_atendimento_id": 7
+}
